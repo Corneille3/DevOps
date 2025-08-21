@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>index.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>sell.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>buy.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>electric.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>buyelectric.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>carsnearby.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>electricvehicles1.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>engineworktopg.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>purchse.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>tradecar.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>aboutus.html</loc>
+  <lastmod>2022-10-13T04:21:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>

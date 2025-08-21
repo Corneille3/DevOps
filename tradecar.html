@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+        <section class="header">
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="index.html">
+                            <image src="image/logo.jpg" alt="Logo">
+                        </a>
+                    </div>
+                    <button class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                    </button>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="purchse.html">Purchase vehicle</a></li>
+                    <li><a href="sell.html">Sell vehicle</a></li>
+                    <li><a href="electric.html">Electric vehicle</a></li>
+                    <li><a href="tradecar.html" class="active">Trade Car</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <section class="trade-car-section">
+            <div class="container">
+                <h1 class="section-title text-center" style="margin-bottom: 30px;">Trade Your Car</h1>
+                <div class="ibox ">
+                    <h2 style="margin-bottom: 10px;">Please Provide With Information</h2>
+                    <p style="margin-bottom: 40px;">With this information you provided us we will send you an email back with the best deals we have for you regarding a trade we have available for you</p>
+                    <h3>Below enter information about you're car</h3>
+                    <form action="#">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Car Brand:</span>
+                                <input type="text" placeholder="Car Brand" class="theme-input" required="">
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Car Model:</span>
+                                <input type="text" placeholder="Car Model" class="theme-input" required="">
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Car Year:</span>
+                                <input type="text" placeholder="Car Year" class="theme-input" required="">
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Car Type:</span>
+                                <input type="text" placeholder="Car Type" class="theme-input" required="">
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Car Condition</span>
+                                <input type="text" placeholder="Car Condition" class="theme-input" required="">
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Car Mileage <span id="previewMileage"></span></span>
+                                <select type="text" class="theme-input" required="" id="getMileage">
+                                    <option value="">Select Mileage</option>
+                                    <option value="0-75000">0-75,000</option>
+                                    <option value="75000-150000">75,000-150,000</option>
+                                    <option value="150000-250000">150,000-250,000</option>
+                                    <option value="250000+">Over 250,000</option>
+                                </select>
+                            </div>
+
+                            <h3 style="margin-top: 20px; margin-bottom:20px;  width: 100%;">Please provide with any current issues with the car from mechanical to physiscal.</h3>
+                            <div class="input-box" style="width: 100%;">
+                                <span class="details">Issues</span>
+                                <textarea placeholder="Car Issues" class="theme-input" required="" style="min-height:90px; max-height:450px; min-width:100%;max-width:100%;"></textarea>
+                            </div>
+                            <div class="input-box" style="width: 100%;">
+                                <span class="details">Upload Car Photo</span>
+                                <input type="file" required="">
+                            </div>
+                            
+                            <h3 style="margin-top: 20px; margin-bottom:20px; width: 100%;">Below enter information about the car your'e looking at</h3>
+                            
+                            <div class="input-box">
+                                <span class="details">Car Brand:</span>
+                                <input type="text" placeholder="Car Brand" class="theme-input" required="">
+                            </div> 
+                            <div class="input-box">
+                                <span class="details">Car Model:</span>
+                                <input type="text" placeholder="Car Model" class="theme-input" required="">
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Car Year:</span>
+                                <input type="text" placeholder="Car Year" class="theme-input" required="">
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Car Type:</span>
+                                <input type="text" placeholder="Car Type" class="theme-input" required="">
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Car Condition</span>
+                                <input type="text" placeholder="Car Condition" class="theme-input" required="">
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Car Mileage <span id="previewMileage"></span></span>
+                                <select type="text" class="theme-input" required="" id="getMileage">
+                                    <option value="">Select Mileage</option>
+                                    <option value="0-75000">0-75,000</option>
+                                    <option value="75000-150000">75,000-150,000</option>
+                                    <option value="150000-250000">150,000-250,000</option>
+                                    <option value="250000+">Over 250,000</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <button class="button primary" type="button" style="height: 42px; padding: 10px 25px">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="ibox trade-extra">
+                    <img src="image/trade-car.jpg" alt="Trade Car">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="item">
+                        <h3>About Us</h3>
+                        <p>Topg Autozprize - Buy and Sell Used Cars in canada at right price. Find New Cars, car prices, upcoming cars and images. Read latest auto news, reviews and car</p>
+                    </div>
+                    <div class="item">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li>343-289-1849</li>
+                            <li>580 march road, kanata ON K2K 2T6</li>
+                            <li>topgautozprize@hotmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>Featured Links</h3>
+                        <ul>
+                            <li><a href="purchse.html">Purchase vehicle</a></li>
+                            <li><a href="sell.html">Sell vehicle</a></li>
+                            <li><a href="electric.html">Electric vehicle</a></li>
+                            <li><a href="tradecar.html">Trade Car</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">
+                        <a href="index.html">Topg Autozprize</a> &copy; copyright @ 2022
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="title"></h2>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
